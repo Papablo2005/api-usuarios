@@ -1,0 +1,29 @@
+{
+  "name": "api-usuarios",
+  "version": "1.0.0",
+  "description": "apuntes de respecto al video de backend para el proyecto",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papablo2005/api-usuarios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papablo2005/api-usuarios/issues"
+  },
+  "homepage": "https://github.com/Papablo2005/api-usuarios#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
+    "nodemon": "^3.1.10"
+  }
+}
